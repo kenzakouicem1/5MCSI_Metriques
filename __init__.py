@@ -26,7 +26,7 @@ def meteo():
 @app.route("/rapport/")
 def mongraphique():
     return render_template("graphique.html")
-@app.route("/histogramme/")
+@app.route("/rapport/")
 def mongraphique():
     return render_template("histogramme.html")
 if __name__ == "__main__":
