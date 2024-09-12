@@ -30,7 +30,7 @@ def mongraphique():
 @app.route("/histogramme/")
 def monhistogramme():
     return render_template("histogramme.html")
-@app.route('/commits/')
+@app.route('/commit/')
 def index():
     return render_template('commit.html')
 @app.route('/extract-minutes/<date_string>')
